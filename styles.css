@@ -1,0 +1,61 @@
+/* Change the background color of the entire webpage */
+body {
+    background-color: #f4f4f9;
+}
+
+/* Styling links with hover effects */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Colors for headings */
+h1, h2, h3 {
+    color: darkblue;
+}
+
+/* Card component styling */
+.card {
+    background-color: #e9f7fd;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    font-family: Arial, sans-serif;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Text Alignment classes */
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.justify-align {
+    text-align: justify;
+}
+
+/* Link Hover Styling */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}

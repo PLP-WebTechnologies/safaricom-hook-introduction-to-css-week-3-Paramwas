@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Element Selector */
+        h1, h2, h3 {
+            font-size: 24px; /* Change the font size of all headings */
+        }
+
+        /* Class Selector */
+        .highlight-section {
+            background-color: lightyellow; /* Apply background color to specific sections */
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        /* ID Selector */
+        #uniqueElement {
+            border: 2px solid #333; /* Add a border to an element with a unique ID */
+            padding: 15px;
+            margin: 25px 0;
+        }
+
+        /* Styling links */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        /* Basic Styling Properties */
+        /* Colors */
+        h1, h2, h3 {
+            color: darkblue;
+        }
+
+        .card {
+            background-color: #e9f7fd;
+            padding: 20px;
+            margin: 15px 0;
+            border: 1px solid #cccccc;
+            font-family: Arial, sans-serif;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* Text Alignment */
+        .center-align {
+            text-align: center;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .justify-align {
+            text-align: justify;
+        }
+
+    </style>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Part 1: CSS Basics - Selectors, Properties, and Values -->
+    <h1>Welcome to My CSS Learning Page</h1>
+
+    <p class="highlight-section">This paragraph is styled with a class selector. It demonstrates how to apply a background color to specific sections of the page.</p>
+
+    <div id="uniqueElement">
+        This div is styled with an ID selector. It has a unique border and padding.
+    </div>
+
+    <p style="color: green;">This paragraph is styled using inline CSS. Inline CSS applies styles directly to an element without affecting others.</p>
+
+    <!-- Part 2: Inline, Internal, and External CSS -->
+    <p class="highlight-section">The content of this section is highlighted using the same class, demonstrating the reuse of styles across multiple elements.</p>
+
+    <a href="#">Click here for more CSS tutorials</a>
+
+    <!-- Part 3: Basic Styling Properties -->
+    <h2>Card Component: Understanding CSS Layouts</h2>
+    <div class="card">
+        <h3 class="center-align">CSS Box Model</h3>
+        <p class="justify-align">The CSS box model is a critical concept that helps define the layout and spacing of elements. It consists of four parts: content, padding, border, and margin. This model is essential for understanding how elements behave in a web layout.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="center-align">CSS Selectors</h3>
+        <p class="justify-align">CSS selectors are used to target HTML elements for styling. They can be element selectors, class selectors, or ID selectors, and they enable you to control the look and layout of your website with ease.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="center-align">Responsive Design</h3>
+        <p class="justify-align">Responsive design ensures your website works across all devices. Using media queries, flexible grids, and percentages, web pages can be optimized for various screen sizes, providing an optimal user experience on both desktop and mobile devices.</p>
+    </div>
+
+    <!-- Styling the paragraphs for alignment -->
+    <p class="left-align">This paragraph is left-aligned. Left alignment is the default for most text, but it can be modified to suit design needs.</p>
+    <p class="center-align">This paragraph is centered for an aesthetically pleasing layout.</p>
+
+</body>
+</html>
